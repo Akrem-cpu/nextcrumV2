@@ -1,2 +1,19 @@
 
 
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.0'
+
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.0.3'
+
+    compile  group: 'io.cucumber', name: 'cucumber-java', version: '7.0.0'
+
+    compile group: 'io.cucumber', name: 'cucumber-junit', version: '7.0.0'
+
+
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+
+
+
+
+
+}

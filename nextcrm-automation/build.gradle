@@ -1,9 +1,11 @@
 
-
 dependencies {
     implementation project(':library')
 }
 application {
 
-    mainClass = 'com.library.nextcrm.test'
+    mainClass = 'com.library.nextcrm.runners.CukesRunner'
+}
+test {
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
 }
