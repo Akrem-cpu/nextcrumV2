@@ -1,0 +1,9 @@
+
+
+dependencies {
+    implementation project(':library')
+}
+application {
+
+    mainClass = 'com.library.nextcrm.test'
+}
